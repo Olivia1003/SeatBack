@@ -374,7 +374,7 @@ function submitData(seatMap) {
     let jsonString = JSON.stringify(jsonData);
     console.log('submitData', jsonData);
     console.log('url', `${baseUrl}/seat/manage`, jsonString)
-    // 提交服务
+    // 提交服务，reset座位
     $.ajax({
         type: "get",
         dataType: "json",
