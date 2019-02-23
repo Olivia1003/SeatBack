@@ -1,0 +1,67 @@
+.header {
+    background-color: #37BC9B;
+    padding: 5px 15px;
+}
+
+.header-title {
+    line-height: 35px;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.report-list-wrap {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.report-list-title {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #3D9970;
+}
+
+/* report-item */
+.report-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.report-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+}
+
+.seat-info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 19%;
+    margin-right: 10px;
+}
+
+.seat-info-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.report-status {
+    font-size: 16px;
+}
+
+.report-btn {
+    margin: 0 5px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #37BC9B;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+
+}
