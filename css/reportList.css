@@ -1,4 +1,6 @@
+/* header */
 .header {
+    position: relative;
     background-color: #37BC9B;
     padding: 5px 15px;
 }
@@ -10,9 +12,31 @@
     letter-spacing: 2px;
 }
 
+/* log-out */
+.log-out-wrap {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.log-out-txt {
+    font-size: 18px;
+    color: #fff;
+}
+
+.log-out-icon {
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+
 .report-list-wrap {
     background-color: #eee;
     padding: 20px;
+    padding-bottom: 50px;
 }
 
 .report-list-title {
@@ -63,5 +87,4 @@
     border-radius: 3px;
     border: none;
     color: #fff;
-
 }
